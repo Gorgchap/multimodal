@@ -5,11 +5,13 @@ import About from './About/About';
 import ChangePassword from "./ChangePassword/ChangePassword";
 import HomePage from './HomePage/HomePage';
 import NotFoundPage from './NotFoundPage/NotFoundPage';
+import Profile from "./Profile/Profile";
 
 const routes = {
   '/': () => <HomePage />,
   '/about': () => <About />,
-  '/change_password': () => <ChangePassword />
+  '/change_password': () => <ChangePassword />,
+  '/profile': () => <Profile />
 };
 
 function App() {
