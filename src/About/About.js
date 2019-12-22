@@ -1,10 +1,9 @@
 import React from "react";
-import HomePage from "../HomePage/HomePage";
+import NavBar from "../NavBar/NavBar";
 
 function About() {
   return <>
-    <h2 className='text-center'>About</h2>
-    <a href={<HomePage/>}>Link to home page</a>
+    <NavBar />
   </>;
 }
 export default About;
