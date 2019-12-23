@@ -5,7 +5,7 @@ function NavBar() {
   return <Navbar bg="dark" variant="dark" sticky="top">
     <Navbar.Brand href="/profile">
       <Image width={40} height={40} className="mr-3" src={'../../avatar.jpg'} alt={''} roundedCircle />
-      <strong>Сергей Сапегин</strong>
+      <span>Сергей Сапегин</span>
     </Navbar.Brand>
     <Nav className="ml-auto">
       <Nav.Link href="/">Основное</Nav.Link>

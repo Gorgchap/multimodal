@@ -1,0 +1,17 @@
+@media (min-width: 576px) {
+  #sidebar {
+    height: calc(100vh - 66px);
+  }
+  .dark-link:last-child {
+    border-bottom: 1px solid rgba(255,255,255,.75);
+  }
+}
+.dark-link {
+  color: rgba(255,255,255,.5);
+  padding: 1rem;
+  border-top: 1px solid rgba(255,255,255,.75);
+  border-right: 1px solid rgba(255,255,255,.75);
+}
+.dark-link:hover {
+  color: rgba(255,255,255,.75);
+}
