@@ -1,16 +1,18 @@
 import React from "react";
-import { Row, Col } from 'react-bootstrap';
 import NavBar from "../NavBar/NavBar";
 import SideBar from "../SideBar/SideBar";
 
 function HomePage() {
   return <>
     <NavBar />
-    <Row>
-      <Col xs={12} sm={4} md={3} lg={2}>
+    <div class="row" style={{marginRight: 0}}>
+      <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
         <SideBar />
-      </Col>
-    </Row>
+      </div>
+      <div className="col-xs-12 col-sm-8 col-md-9 col-lg-10">
+        <h2 className="text-center">Home page</h2>
+      </div>
+    </div>
   </>
 }
 export default HomePage;
