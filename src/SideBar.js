@@ -1,5 +1,4 @@
 import {Nav} from 'react-bootstrap';
-import './sidebar.css'
 import React from 'react';
 
 function SideBar() {

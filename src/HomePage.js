@@ -10,7 +10,7 @@ function HomePage() {
       <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2" style={{paddingRight: 0}}>
         <SideBar />
       </div>
-      <div className="col-xs-12 col-sm-8 col-md-9 col-lg-10" style={{padding: '15px'}}>
+      <div className="col-xs-12 col-sm-8 col-md-9 col-lg-10 content">
         <Card style={{height: '100%'}}>
           <h2 className="text-center">Home page</h2>
         </Card>
