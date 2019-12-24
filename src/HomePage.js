@@ -1,6 +1,6 @@
 import React from "react";
-import NavBar from "../NavBar/NavBar";
-import SideBar from "../SideBar/SideBar";
+import NavBar from "./NavBar";
+import SideBar from "./SideBar";
 import Card from "react-bootstrap/Card";
 
 function HomePage() {

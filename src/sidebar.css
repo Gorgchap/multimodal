@@ -6,10 +6,17 @@
     border-bottom: 1px solid rgba(255,255,255,.75);
   }
 }
-@media (max-width: 576px) {
+@media (min-width: 350px) and (max-width: 577px) {
   .dark-link {
-    width: 20%;
-    word-break: break-all;
+    width: 50%;
+    text-align: center;
+    word-break: break-word;
+  }
+}
+@media (max-width: 351px) {
+  .dark-link {
+    width: 100%;
+    text-align: center;
   }
 }
 .dark-link {

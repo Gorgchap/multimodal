@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 import {useRoutes} from 'hookrouter';
-import About from './About/About';
-import ChangePassword from "./ChangePassword/ChangePassword";
-import HomePage from './HomePage/HomePage';
-import NotFoundPage from './NotFoundPage/NotFoundPage';
-import Profile from "./Profile/Profile";
+import About from './About';
+import ChangePassword from "./ChangePassword";
+import HomePage from './HomePage';
+import NotFoundPage from './NotFoundPage';
+import Profile from "./Profile";
 
 const routes = {
   '/': () => <HomePage />,

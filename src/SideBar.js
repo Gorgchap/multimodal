@@ -17,6 +17,9 @@ function SideBar() {
       Пакеты обработки
     </Nav.Link>
     <Nav.Link href="/" className="dark-link">
+      Пакеты обработки
+    </Nav.Link>
+    <Nav.Link href="/" className="dark-link">
       Публикации и отчёты
     </Nav.Link>
   </Nav>
