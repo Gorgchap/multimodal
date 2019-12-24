@@ -1,0 +1,38 @@
+.content {
+  padding: 15px;
+}
+@media (max-width: 577px)  {
+  .content {
+    margin-left: 15px;
+  }
+}
+@media (min-width: 576px) {
+  #sidebar {
+    height: calc(100vh - 66px);
+  }
+  .dark-link:last-child {
+    border-bottom: 1px solid rgba(255,255,255,.75);
+  }
+}
+@media (min-width: 350px) and (max-width: 577px)  {
+  .dark-link {
+    width: 50%;
+    text-align: center;
+    word-break: break-word;
+  }
+}
+@media (max-width: 351px) {
+  .dark-link {
+    width: 100%;
+    text-align: center;
+  }
+}
+.dark-link {
+  color: rgba(255,255,255,.5);
+  padding: 1rem;
+  border-top: 1px solid rgba(255,255,255,.75);
+  border-right: 1px solid rgba(255,255,255,.75);
+}
+.dark-link:hover {
+  color: rgba(255,255,255,.75);
+}
