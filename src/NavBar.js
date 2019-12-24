@@ -14,7 +14,7 @@ function NavBar() {
         <NavDropdown.Item href="/profile">Профиль</NavDropdown.Item>
         <NavDropdown.Item href="/change_password">Смена пароля</NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item href="/about">О платформе</NavDropdown.Item>
+        <NavDropdown.Item href="/">О платформе</NavDropdown.Item>
         <NavDropdown.Item href="/logout">Выход</NavDropdown.Item>
       </NavDropdown>
     </Nav>

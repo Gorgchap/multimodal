@@ -1,16 +1,18 @@
 import React from 'react';
 import './App.css';
 import {useRoutes} from 'hookrouter';
-import About from './About';
 import ChangePassword from "./ChangePassword";
+import Dataset from "./Dataset";
+import Experiment from "./Experiment"
 import HomePage from './HomePage';
 import NotFoundPage from './NotFoundPage';
 import Profile from "./Profile";
 
 const routes = {
   '/': () => <HomePage />,
-  '/about': () => <About />,
   '/change_password': () => <ChangePassword />,
+  '/dataset': () => <Dataset/>,
+  '/experiment': () => <Experiment/>,
   '/profile': () => <Profile />
 };
 
