@@ -5,13 +5,19 @@ import React from 'react';
 function SideBar() {
   return <Nav className="flex-row flex-sm-column bg-dark" id="sidebar">
     <Nav.Link href="/" className="dark-link">
-      Active
+      Данные экспериментов
     </Nav.Link>
     <Nav.Link href="/" className="dark-link">
-      Link
+      Шаблоны исследований
     </Nav.Link>
     <Nav.Link href="/" className="dark-link">
-      Link
+      Датасеты
+    </Nav.Link>
+    <Nav.Link href="/" className="dark-link">
+      Пакеты обработки
+    </Nav.Link>
+    <Nav.Link href="/" className="dark-link">
+      Публикации и отчёты
     </Nav.Link>
   </Nav>
 }

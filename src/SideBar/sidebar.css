@@ -6,6 +6,12 @@
     border-bottom: 1px solid rgba(255,255,255,.75);
   }
 }
+@media (max-width: 576px) {
+  .dark-link {
+    width: 20%;
+    word-break: break-all;
+  }
+}
 .dark-link {
   color: rgba(255,255,255,.5);
   padding: 1rem;
